@@ -10,63 +10,27 @@
       </LineStyle>
     </Style>
 
-    <Style id="stopStyle">
-      <IconStyle>
-        <color>ff1e3ce6</color>
-        <scale>1.1</scale>
-      </IconStyle>
-    </Style>
-
     <Placemark>
       <name>Whale Path</name>
       <styleUrl>#pathStyle</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -122.32,47.95,0
-          -122.62,48.29,0
-          -122.64,48.40,0
+          -122.32,47.93,0
+          -122.38,48.03,0
+          -122.50,48.10,0
+          -122.62,48.22,0
+          -122.62,48.32,0
+          -122.64,48.38,0
+          -122.646,48.403,0
+          -122.75,48.43,0
+          -122.90,48.50,0
           -123.02,48.53,0
-          -123.17,48.55,0
-          -123.30,48.45,0
+          -123.13,48.53,0
+          -123.25,48.47,0
+          -123.35,48.40,0
         </coordinates>
       </LineString>
-    </Placemark>
-
-    <Placemark>
-      <name>1. Possession Sound</name>
-      <styleUrl>#stopStyle</styleUrl>
-      <Point><coordinates>-122.32,47.95,0</coordinates></Point>
-    </Placemark>
-
-    <Placemark>
-      <name>2. Oak Harbor (east Whidbey Island)</name>
-      <styleUrl>#stopStyle</styleUrl>
-      <Point><coordinates>-122.62,48.29,0</coordinates></Point>
-    </Placemark>
-
-    <Placemark>
-      <name>3. Deception Pass</name>
-      <styleUrl>#stopStyle</styleUrl>
-      <Point><coordinates>-122.64,48.40,0</coordinates></Point>
-    </Placemark>
-
-    <Placemark>
-      <name>4. San Juan Islands (Friday Harbor)</name>
-      <styleUrl>#stopStyle</styleUrl>
-      <Point><coordinates>-123.02,48.53,0</coordinates></Point>
-    </Placemark>
-
-    <Placemark>
-      <name>5. Haro Strait</name>
-      <styleUrl>#stopStyle</styleUrl>
-      <Point><coordinates>-123.17,48.55,0</coordinates></Point>
-    </Placemark>
-
-    <Placemark>
-      <name>6. Near Victoria (north end of Haro Strait)</name>
-      <styleUrl>#stopStyle</styleUrl>
-      <Point><coordinates>-123.30,48.45,0</coordinates></Point>
     </Placemark>
 
   </Document>
