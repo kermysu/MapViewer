@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Whale Travel Path</name>
+
+    <Style id="pathStyle">
+      <LineStyle>
+        <color>ff1e3ce6</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Style id="stopStyle">
+      <IconStyle>
+        <color>ff1e3ce6</color>
+        <scale>1.1</scale>
+      </IconStyle>
+    </Style>
+
+    <Placemark>
+      <name>Whale Path</name>
+      <styleUrl>#pathStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.32,47.95,0
+          -122.62,48.29,0
+          -122.64,48.40,0
+          -123.02,48.53,0
+          -123.17,48.55,0
+          -123.30,48.45,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>1. Possession Sound</name>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point><coordinates>-122.32,47.95,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>2. Oak Harbor (east Whidbey Island)</name>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point><coordinates>-122.62,48.29,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>3. Deception Pass</name>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point><coordinates>-122.64,48.40,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>4. San Juan Islands (Friday Harbor)</name>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point><coordinates>-123.02,48.53,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>5. Haro Strait</name>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point><coordinates>-123.17,48.55,0</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      <name>6. Near Victoria (north end of Haro Strait)</name>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point><coordinates>-123.30,48.45,0</coordinates></Point>
+    </Placemark>
+
+  </Document>
+</kml>
